@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-image: url(./images/9k_.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  background: rgba(215, 226, 248, 0.7);
+}
+#weather-ico {
+  width: 10vw;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+}
+.header_left {
+  text-align: center;
+  border-right: solid 4px black;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c {
+  font-size: 4vw;
+}
+.header_right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+.header_right_right {
+  text-align: right;
+}
+.weather {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 1rem;
+}
+.weather :nth-child(1) {
+  padding: 10px;
+}
+#location {
+  font-size: 3vw;
+  font-weight: 800;
+  font-style: italic;
+}
+.desc {
+  /* font-size: 1.5rem; */
+  text-transform: capitalize;
+}
+.circle {
+  background-color: black;
+  border-radius: 50px;
+  height: 15px;
+  width: 15px;
+  margin: 0 15px;
+}
+.week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 50px;
+}
+.week_day {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  text-align: center;
+}
+.day_icon img {
+  width: 100%;
+  padding: 10%;
+}
+.day_temp_low {
+  color: rgb(88, 88, 89);
+  padding-left: 1rem;
+}
+.day{
+  font-size: 2vw;
+}
+.day_temp{
+  font-size: 1.5vw !important;
+}
+.header_right{
+  font-size: 2vw;
+}
